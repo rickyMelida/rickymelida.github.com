@@ -397,6 +397,11 @@ footer span {
     width: 30%;
   }
 
+  .slideUp a{
+    padding: 5px;
+    width: 30%;
+  }
+
   #links {
     flex-basis: 30%;
   }

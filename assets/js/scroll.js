@@ -4,45 +4,33 @@ window.onscroll = () => {
 
   switch (titulo) {
     case 'Ricardo M.':
-      if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-        document.querySelector(".icons-tech").className = "slideUp";
-        document.querySelector('.links-pages').className = 'slideUp';
-      }
+      scrollEffect(350);
       break;
 
     case 'Habilidades':
-      if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-        document.querySelector(".icons-tech").className = "slideUp";
-        document.querySelector('.links-pages').className = 'slideUp';
-      }
+      scrollEffect(350);
       break;
 
     case 'Sobre Mi':
-      if (document.body.scrollTop > 1300 || document.documentElement.scrollTop > 1300) {
-        document.querySelector(".icons-tech").className = "slideUp";
-        document.querySelector('.links-pages').className = 'slideUp';
-      }
+      scrollEffect(1300);
       break;
 
     case 'Portafolio':
-      if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-        document.querySelector(".icons-tech").className = "slideUp";
-        document.querySelector('.links-pages').className = 'slideUp';
-      }
+      scrollEffect(800);
       break;
 
     case 'Contacto':
-      if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
-        document.querySelector(".icons-tech").className = "slideUp";
-        document.querySelector('.links-pages').className = 'slideUp';
-      }
+      scrollEffect(250);
       break;
     
     default: 
-    if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-      document.querySelector(".icons-tech").className = "slideUp";
-      document.querySelector('.links-pages').className = 'slideUp';
-    }
+    scrollEffect(0);
+  }
+}
 
+function scrollEffect(scroll) {
+  if (document.body.scrollTop > scroll || document.documentElement.scrollTop > scroll) {
+    document.querySelector(".icons-tech").className = "slideUp";
+    document.querySelector('.links-pages').className = 'slideUp';
   }
 }
