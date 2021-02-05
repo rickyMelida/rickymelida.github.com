@@ -97,6 +97,8 @@ $(document).ready(function () {
   }
 
 
+  
+
 
   /*
     Aqui seleccionamos la imagen y nombre del proyecto y le cambiamos dichos atributos

@@ -163,7 +163,7 @@ ul li a {
 
 #redes a {
   text-decoration: none;
-  padding: 5%;
+  padding: 2%;
 }
 
 .mover-content {
@@ -212,6 +212,16 @@ ul li a {
   padding: 20px 0;
 }
 
+.icons-tech a {
+  visibility: hidden;
+}
+
+.slideUp {
+  animation-name: slideUp;
+  animation-duration: 1s;
+  visibility: visible;
+}
+
 /*--------------   Links y enlaces  -----------------*/
 #links,
 #contactos {
@@ -234,6 +244,10 @@ ul li a {
 #links ul li a,
 #contactos ul li a {
   font-size: 16px;
+}
+
+.links-pages {
+  visibility:hidden;
 }
 
 #selec-item a{
@@ -308,7 +322,7 @@ footer span {
 
   #contenedor p:first-child {
     font-size: 32px;
-    padding-top: 10%;
+    padding-top: 5%;
   }
 
   #contenedor #redes {
@@ -417,5 +431,16 @@ footer span {
 
   100% {
     border: solid 3px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translate(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0%);
   }
 }

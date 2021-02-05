@@ -65,9 +65,12 @@
 	font-size: 1.2em;
 	font-weight: bold;
 	font-family: Poppins,Arial,sans-serif;
-	/* font-family: 'Playfair Display', serif; */
+	text-align: center;
 }
 
+.detalles {
+	margin-left: 12%;
+}
 .detalles section{
 	padding: 10px 0;
 }
@@ -93,7 +96,7 @@
 	} 
 
 	.titulos h3 {
-		margin-left: 45%;
+		margin-left: 55%;
 		margin-top: -38px;
 		font-size: 32px;
 	}
@@ -116,6 +119,10 @@
 		position: absolute;
 		top: 10%;
 		left: 60%;
+	}
+
+	.detalles {
+		margin-left: 18%;
 	}
 
 	#tecnologias .titulos h2 {
