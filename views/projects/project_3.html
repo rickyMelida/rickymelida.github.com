@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../../assets/css/styles.css" />
   <link rel="stylesheet" href="../../assets/css/project.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../assets/css/waitMe.min.css">
   <title>Proyecto</title>
 </head>
 
@@ -35,13 +36,13 @@
     <div id="contenedor">
       <div class='titulos'>
         <h2>
-          <a href="../../index.html">Inicio</a> 
+          <a href="../../index.html">Inicio</a>
         </h2>
         <h3>
-          <a href="../../views/portafolio.html">Portafolio</a> 
+          <a href="../../views/portafolio.html">Portafolio</a>
         </h3>
       </div>
-      
+
     </div>
   </div>
   <div class='clearfix'></div>
@@ -57,7 +58,7 @@
 
     <div class="des_project">
       <h3>Tareas Eléctricas</h3>
-      
+
       <div class="detalles">
         <section>
           <span>Descripción: </span>
@@ -86,7 +87,7 @@
           <span>Herramientas: </span>
           <label id="project-herr">PHP, Bootstrap, JQuery, MySQL</label>
         </section>
-        
+
       </div>
     </div>
   </div>
@@ -153,6 +154,17 @@
   <script src='../../assets/js/main.js'></script>
   <script src='../../assets/js/scroll.js'></script>
   <script src="../../assets/js/slider.js"></script>
+  <script src="../../assets/js/waitMe.js"></script>
+
+  <script>
+    $('.container').waitMe({
+      effect: 'bounce'
+    });
+
+    setTimeout(() => {
+      $('.container').waitMe("hide");
+    }, 1500);
+  </script>
 </body>
 
 </html>

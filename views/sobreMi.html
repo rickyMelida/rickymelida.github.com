@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="../assets/css/styles.css" />
 	<link rel="stylesheet" href="../assets/css/sobreMi.css">
+	<link rel="stylesheet" href="../assets/css/waitMe.min.css">
 	<title>Sobre Mi</title>
 </head>
 
@@ -193,6 +194,16 @@
 	<script src="../assets/js/jquery-3.4.0.js"></script>
 	<script src='../assets/js/main.js'></script>
 	<script src="../assets/js/scroll.js"></script>
+	<script src="../assets/js/waitMe.js"></script>
+	<script>
+		$('.container').waitMe({
+			effect: 'bounce'
+		});
+
+		setTimeout(() => {
+			$('.container').waitMe("hide");
+		}, 1500);
+	</script>
 
 </body>
 

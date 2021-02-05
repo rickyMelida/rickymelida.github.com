@@ -135,5 +135,4 @@ $(document).ready(function () {
   tituloProject3.innerHTML = 'Ricky Web';
   tituloProject3.href = "./projects/project_5.html";
 
-
 });
