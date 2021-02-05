@@ -218,7 +218,7 @@ ul li a {
 
 .slideUp {
   animation-name: slideUp;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   visibility: visible;
 }
 

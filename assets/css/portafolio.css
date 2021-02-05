@@ -18,7 +18,7 @@
 
 .name-project a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     color: black;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -60,6 +60,9 @@
         width: 50%;
     }
 
+    .name-project a {
+        font-size: 18px;
+    }
     .apartados {
         margin: 15% 5% 0 auto;
     }
