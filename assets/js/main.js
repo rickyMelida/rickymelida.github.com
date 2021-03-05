@@ -89,7 +89,7 @@ $(document).ready(function () {
   
   // Aqui duplicamos los proyectos, le agregamos un id diferente
   // a cada uno y lo agregamos al contenedor
-  for (let i = 1; i <= 4; i++) {
+  for (let i = 1; i <= 5; i++) {
     let project2 = projects.cloneNode(true);
     project2.removeAttribute('id');
     project2.setAttribute('id', 'project_' + i);
@@ -134,5 +134,12 @@ $(document).ready(function () {
   imagen3.setAttribute('src', `../assets/images/projects/ricky_web/1.jpg`);
   tituloProject3.innerHTML = 'Ricky Web';
   tituloProject3.href = "./projects/project_5.html";
+
+  // Proyecto 6
+  let imagen4 = document.querySelector('#project_5 img');
+  let tituloProject4 = document.querySelector('#project_5 .name-project a');
+  imagen4.setAttribute('src', `../assets/images/projects/ibaj_web/1.png`);
+  tituloProject4.innerHTML = 'Ibaj Web';
+  tituloProject4.href = "./projects/project_6.html";
 
 });
