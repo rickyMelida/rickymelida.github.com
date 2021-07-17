@@ -1091,6 +1091,7 @@ a:not([href]):not([tabindex]):hover {
   font-size: 14px;
   margin-top: 20px;
   color: #fff;
+  margin-left: 12.5%;
 }
 
 .footer-area .footer-text p a {
@@ -1156,4 +1157,9 @@ a:not([href]):not([tabindex]):hover {
 
 #copyright p a:hover {
   color: #00b4d9;
+}
+
+
+.web-developer {
+  margin-left: 12%;
 }
