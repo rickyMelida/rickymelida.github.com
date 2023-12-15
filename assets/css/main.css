@@ -434,7 +434,7 @@ a.back-to-top:focus {
 
 .timeline li .line-text {
   color: #888;
-  line-height: 18px;
+  line-height: 22px;
 }
 
 .timeline li:first-child:before {
@@ -673,6 +673,10 @@ a.back-to-top:focus {
 
 .slicknav_menu .slicknav_icon-bar {
   background: #59cc74;
+}
+
+.about-me {
+  line-height: 30px;
 }
 
 /* only small tablets */
